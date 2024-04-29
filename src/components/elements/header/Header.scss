@@ -1,0 +1,74 @@
+@import "../../../styles/colors.scss";
+
+.each-slide-effect > div {
+    display: block;
+    align-items: left;
+    justify-content: left;
+
+    background-size: cover;  
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    transform: scale(1);
+    height: 700px;
+    max-width: 1400px;
+  }
+
+
+.header {
+    margin: 0 auto;
+    max-width: 1400px;
+    height: 600px;
+    border-radius: 25px;
+
+    &-block {
+        width: 1200px;
+
+        &_name {
+            color: $white;
+            font-size: 28px;
+            font-family: 300;
+            text-transform: uppercase;
+            letter-spacing: .2rem;
+            text-shadow: 1px 1px 2px pink;
+
+            padding: 120px 70px 25px;
+        }
+
+        &_title {
+            color: $main;
+            font-size: 20px;
+            font-family: 300;
+            opacity: 0.9;
+                
+            margin-left: 70px;
+            margin-right: 780px;
+            margin-bottom: 55px;
+        }
+
+        &_button {
+            border-radius: 100px;
+            border-style: solid;
+            border: none;
+            cursor: pointer;
+    
+            background-color: $red;
+            color: $white;
+            font-size: 18px;
+            font-family: 300;
+            text-transform: uppercase;
+            letter-spacing: .1rem;
+    
+            float: left;
+            margin-left: 113px;
+            width: 200px;
+            height: 65px;
+            transition: 1s;
+    
+            &:hover {
+                background-color: #C52024;
+                transform: scale(1.07)
+            }       
+        }
+
+    }
+}

@@ -1,0 +1,110 @@
+@import "../../../styles/colors.scss";
+
+
+
+.main {
+    padding-top: 75px;
+
+    &-icon {
+
+        &_title {
+            display: flex;
+            justify-content: space-around;
+            padding-top: 25px;
+            padding-left: 175px;
+            padding-right: 135px;
+            //height: 550px;
+
+            &__info {
+                padding-right: 50px;
+                p {
+                    margin-bottom: 40px;
+                    letter-spacing: .1rem;
+                    max-width: 600px;
+                }
+
+                &__genres {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: start;
+                    letter-spacing: .1rem;
+
+                    p {
+                        margin-right: 25px;
+                    }
+    
+                }
+                
+            }
+
+            &__img {
+                &_new {
+                    border-radius: 15px;
+                    width: 100%;
+                    height: 500px;
+                }
+                
+            }
+        }
+        
+        // padding-bottom: 60px;
+
+        &_card {
+            display: flex;
+            flex-wrap: wrap;
+            height: 350px;
+            align-content: space-between;
+            justify-content: space-between;
+
+        }
+        
+        h3 {
+            color: $white;
+            font-size: 28px;
+            font-family: 300;
+            text-transform: uppercase;
+            letter-spacing: .2rem;
+            text-shadow: 1px 1px 2px pink;
+            padding-bottom: 50px;
+        }
+       
+        &__info {
+            margin-right: 20px;
+            margin-bottom: 40px;
+            width: 250px;
+            list-style: none;
+
+            
+            border-style: solid;
+            border: none;
+            cursor: pointer;
+
+            &:hover {
+                transform: scale(1.05)
+            } 
+
+            img {
+                border-radius: 20px;
+                width: 270px;
+                height: 350px;
+
+            }
+            p {
+                color: $main;
+                font-size: 24px;
+                font-family: 700;
+                font-style: bold;
+                opacity: 0.9;
+            }
+        }
+    }
+
+    &-movie-new,
+    &-movie-top,
+    &-movie,
+    &-serial-top,
+    &-serial{
+        padding-bottom: 330px;
+    }
+
+}
