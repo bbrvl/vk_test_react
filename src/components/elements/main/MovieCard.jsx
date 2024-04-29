@@ -3,7 +3,7 @@ import './Main.scss';
 import { Link } from 'react-router-dom';
 
 export const MovieCard = ({ movie }) => {
-    const cardUrl = `/details/${movie.id}`
+    const cardUrl = `/vk_test_react/details/${movie.id}`
     return (
         <Link style={{ textDecoration: 'none' }} to={cardUrl} className='link'>
             <div className='main-icon__info' key={movie.id}>
