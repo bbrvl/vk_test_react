@@ -15,11 +15,11 @@ const App = () =>  {
             <Router>
                 <Navigation />
                 <Routes>
-                    <Route path='' element={<Main />} /> 
-                    <Route path='/films' element={<Films />} /> 
-                    <Route path='/serials' element={<Serials />} /> 
-                    <Route path='/popular' element={<Popular />} />
-                    <Route path='/details/:filmId' element={<MovieDetail/>} />
+                    <Route path='vk_test_react' element={<Main />} /> 
+                    <Route path='vk_test_react/films' element={<Films />} /> 
+                    <Route path='vk_test_react/serials' element={<Serials />} /> 
+                    <Route path='vk_test_react/popular' element={<Popular />} />
+                    <Route path='vk_test_react/details/:filmId' element={<MovieDetail/>} />
                 </Routes>
 
             </Router>

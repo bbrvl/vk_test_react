@@ -23,22 +23,22 @@ class Navigation extends React.Component {
 
                             <ul className='navigation-row_list'>
                                 <li className="navigation-row_list__item">
-                                    <NavLink to='/' className={({ isActive }) => isActiveLink(isActive)}>  
+                                    <NavLink to='/vk_test_react' className={({ isActive }) => isActiveLink(isActive)}>  
                                         Главная
                                     </NavLink>
                                 </li>
                                 <li className="navigation-row_list__item">
-                                    <NavLink to='/films' className={({ isActive }) => isActiveLink(isActive)}>
+                                    <NavLink to='/vk_test_react/films' className={({ isActive }) => isActiveLink(isActive)}>
                                         Фильмы
                                     </NavLink>
                                 </li>
                                 <li className="navigation-row_list__item">
-                                    <NavLink to='/serials' className={({ isActive }) => isActiveLink(isActive)}>
+                                    <NavLink to='/vk_test_react/serials' className={({ isActive }) => isActiveLink(isActive)}>
                                         Сериалы
                                     </NavLink>
                                 </li>
                                 <li className="navigation-row_list__item">
-                                    <NavLink to='/popular' className={({ isActive }) => isActiveLink(isActive)}>
+                                    <NavLink to='/vk_test_react/popular' className={({ isActive }) => isActiveLink(isActive)}>
                                         Избранное
                                     </NavLink>
                                 </li>
